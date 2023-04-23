@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pongai"
+version = "0.1.0"
+description = "Pong AI NEAT Project"
+authors = ["Vinícius José Pierri Nogueira <vinijosenog@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+neat-python = "^0.92"
+pygame = "^2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

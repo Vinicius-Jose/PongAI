@@ -1,0 +1,16 @@
+{
+    "name": "Run Python script with Poetry",
+    "type": "python",
+    "request": "launch",
+    "module": "poetry",
+    "args": [
+        "run",
+        "python -m ",
+        "${file}",
+    ],
+    "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "django": true,
+    "configurations": []
+}
